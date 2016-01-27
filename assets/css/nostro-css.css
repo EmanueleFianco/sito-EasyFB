@@ -23,13 +23,7 @@
 .social {
 	height: 40px;
 	width: 40px;
-}
-
-#social{
-	height: 50px;
-	width: 250px;
-	padding-top: 5px;
-	padding-left: 150px;
+	border-radius: 20px;
 }
 
 .navbar-default {
@@ -38,43 +32,56 @@
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 16pt;
-	color: white;
+	color: #ffffff;
 	font-weight: bold;
     
 }
 
-.footer {
+footer {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#footer-navigazione {
 	background-color: #77C18F;
 	width: 100%;
-	padding-top: 20px;
 	border-radius: 4px;
 	border: 1px solid transparent;
 	border-color: #e7e7e7;
 }
 
+#footer-copy {
+ background-color: #77C18F;
+ padding: 10px 0 0 0;
+ border-top: 1px solid #fff;
+ border-radius:4px;
+}
 
 #social-link-facebook  {
 	display:inline;
     padding-top: 5px;
     padding-bottom: 2px;
-    padding-right: 2px;
 }
 
 #social-link-twitter {
-	   display: inline;
+	display: inline;
     padding-top: 5px;
     padding-bottom: 2px;
-    padding-left: 2px;
 }
 
-#mess-footer {
-	color: white;
-	font-size: 16pt;
-	font-weight: bold;
+#contatti {
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	border-color: white;
 }
 
-@media(max-width: 767px){
-	#social{
-    	padding-left: 0px;     
-	}
-}  
+.sezioni-footer {
+	padding-left: 30px;
+	color: #ffffff;
+}
+
+
+#copyright {
+	padding-left: 15px;
+	color: #ffffff;
+}

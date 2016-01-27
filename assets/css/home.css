@@ -1,25 +1,26 @@
 #frase-effetto {
 	font-size: 22pt;
 	margin-bottom: 135px;
+	font-weight: bold;
 }
 
 @media (min-width: 768px) {
 	#frase-effetto {
-		font-size: 22pt;
+		font-size: 21pt;
 		margin-bottom: 190px;
 	}
 }
 
 @media (min-width: 992px) {
 	#frase-effetto {
-		font-size: 28pt;
+		font-size: 27pt;
 		margin-bottom: 280px;
 	}
 }
 
 @media (min-width: 1200px) {
 	#frase-effetto {
-		font-size: 21pt;
+		font-size: 20pt;
 		margin-bottom: 185px;
 	}
 }
