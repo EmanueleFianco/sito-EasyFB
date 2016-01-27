@@ -53,7 +53,7 @@ footer {
 #footer-copy {
  background-color: #77C18F;
  padding: 10px 0 0 0;
- border-top: 1px solid #fff;
+ border-top: 1px solid #ffffff;
  border-radius:4px;
 }
 
@@ -72,7 +72,7 @@ footer {
 #contatti {
 	border-style: solid;
 	border-width: 0px 0px 0px 2px;
-	border-color: white;
+	border-color: #ffffff;
 }
 
 .sezioni-footer {
@@ -84,4 +84,18 @@ footer {
 #copyright {
 	padding-left: 15px;
 	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	#social {
+		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	#contatti {
+		padding-top: 5px;
+		border-width: 2px 0px 0px 0px;
+		border-color: #ffffff;
+	}
 }
