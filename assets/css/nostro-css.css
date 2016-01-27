@@ -74,6 +74,7 @@
 }
 
 @media(max-width: 767px){
-#social{
-    padding-left: 0px;     
+	#social{
+    	padding-left: 0px;     
+	}
 }  

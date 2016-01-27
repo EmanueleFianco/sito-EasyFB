@@ -1,4 +1,25 @@
 #frase-effetto {
-	font-size: 30pt;
-	margin-bottom: 280px;
+	font-size: 22pt;
+	margin-bottom: 135px;
+}
+
+@media (min-width: 768px) {
+	#frase-effetto {
+		font-size: 22pt;
+		margin-bottom: 190px;
+	}
+}
+
+@media (min-width: 992px) {
+	#frase-effetto {
+		font-size: 28pt
+		margin-bottom: 280px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#frase-effetto {
+		font-size: 36pt
+		margin-bottom: 350px;
+	}
 }
