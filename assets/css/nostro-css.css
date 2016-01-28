@@ -86,6 +86,11 @@ footer {
 	color: #ffffff;
 }
 
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 @media (max-width: 768px) {
 	#social {
 		padding-bottom: 25px;
