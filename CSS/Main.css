@@ -1,0 +1,218 @@
+.mybody{
+    background-color: snow;
+}
+
+.mynavbar{
+    color: black;
+    background-color: #fff; 
+    margin-bottom: 0px;
+    border-color: #00aa55;
+    border-radius: 0px;
+    border-bottom-width:medium;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width:0px;
+}
+
+.myNavElement{
+    color:black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+background-color: #00aa55;
+color: #fff;
+}
+
+
+.myfooter{
+    padding-top: 10px;
+    border-top: 3px solid #00aa55;
+    background-color: snow;
+}
+.myfooter2{
+    padding-top: 10px;
+    background-color: snow;
+}
+
+.myMessage{
+    background-color: #fff;
+    width:60%;
+    margin-left:20%;
+    opacity: 0.8;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.prova {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+.mycarousel{
+    height: 500px;
+}
+}
+
+@media (min-width: 490px) and (max-width: 1199px) {
+        height: 500px;
+}
+
+@media (max-width: 480px) {
+.mycarousel{
+    height: 200px;
+}
+    .myMessage{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:80px;
+    }
+    .prova{
+        font-size:20px;
+    }
+}
+
+.logo{
+    height:30px;
+}
+
+
+#myCarousel {
+    width: 100%;
+}
+.carousel-control {
+    margin-top: 0px;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ad1 {
+    background: url(../Images/anziani-digitali.jpg) no-repeat 55%;
+    background-attachment:scroll;
+    position:absolute;
+}
+.ad2 {
+    background: url(../Images/dormeni-31.jpg) no-repeat 55%;
+    background-attachment:scroll;
+    
+}
+.ad3 {
+    background: url(../Images/stock-footage-old-man-teaching-his-elderly-friends-to-use-a-new-tablet-pc-in-a-park-of-rome.jpg) no-repeat 55%;
+    background-attachment:scroll;}
+
+.social{
+    color: #00aa55;
+}
+.social:hover{
+    color: green;
+    
+}
+.global-page-header {
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px 0px 0;
+  position: relative;
+  background: #00aa55;
+  color: #fff;
+}
+.global-page-header h2 {
+  font-size: 45px;
+font-family: 'Roboto', sans-serif;
+    text-align: center;
+  color: #fff;
+  
+}
+.global-page-header .breadcrumb {
+  background: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+  padding: 10px  0;
+}
+.global-page-header .breadcrumb .active {
+  color: #fff;
+}
+.global-page-header .breadcrumb li a {
+  color: #fff;
+}
+.global-page-header .block {
+  z-index: 60
+      ;
+}
+.content-section-a {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.content-section-b {
+    padding: 30px 0;
+    border-top: 1px solid #00aa55;
+    background-color: #F5FFFA;
+    border-bottom: 1px solid #00aa55;
+}
+.section-heading-spacer {
+    width: 100%;
+    border-top: 1px solid #00aa55;
+}
+.lead1{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+    .faqHeader {
+        font-family: :'Roboto', sans-serif;
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072";
+        float: right;
+        color: #00aa55;
+        font-size: 100%;
+        line-height: 22px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454445;
+    }
+.panel-body1{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+}
+.btn-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #00aa55;
+    opacity: 1;
+    color:white;
+}
+
+.prove{
+    color:black;
+    
+}
+
